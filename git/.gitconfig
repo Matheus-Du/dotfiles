@@ -1,0 +1,11 @@
+[rebase]
+	autosquash = true
+[push]
+	default = simple
+[alias]
+	fix = commit --fixup=HEAD
+	squash-fix = rebase -i HEAD~2
+	last = log -1 HEAD
+	fix-squash = !git fix && git squash-fix
+[core]
+	hooksPath = $HOME/git/hooks
