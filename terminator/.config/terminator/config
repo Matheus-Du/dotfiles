@@ -4,6 +4,10 @@
 [keybindings]
 [profiles]
   [[default]]
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#aaaaaa"
     font = FiraCode Nerd Font weight=450 11
     palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#f66151:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     use_system_font = False
