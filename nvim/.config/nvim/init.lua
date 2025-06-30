@@ -11,7 +11,7 @@ vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
 
 -- TODO: look into installing Nerd Font for terminal
-vim.g.have_nerd_font = true
+vim.g.have_nerd_font = false
 
 -- Some Vim `options`
 -- show line nums
