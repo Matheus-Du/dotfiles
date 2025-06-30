@@ -9,6 +9,7 @@
 	fix-squash = !git fix && git squash-fix
 [core]
 	hooksPath = $HOME/git/hooks
+	editor = nvim
 [user]
-	email = duncanmatheus9055@gmail.com
+	email = duncanmatheus905@gmail.com
 	name = Matheus Duncan
